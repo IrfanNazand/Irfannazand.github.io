@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang= "no">
+<head>
+    <title> Irfanullah Nazand </title>
+    
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" initial-scale=1, maximum-scale=1 />
+    <meta name="author" content="Irfanullah Nazand" />
+    
+    <meta name="description" content=" Page is used as CV ">
+    <meta name="keywords" content="CV">
+    
+    <title>Font Awesome Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/main_contrast.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="images/favicon.ico">
+    <script src="js/javascript.js"></script>
+</head>
+
+    
+<body>
+    
+    <!-- Header -->
+        <div id="header_small">
+			<nav id="navbar_small">
+				<ul>
+					<li><a href="Main.html">Høykontrast</a></li>
+					<li>|</li>
+					<div class="drop_txt">	
+						<li><a href="#">Skriftstørrelse</a></li>
+						<div class="txt_content">
+							<p>Hold Ctrl-knappen nede (Cmd-tasten på Mac). Trykk samtidig på + for å forstørre eller - for å forminske.</p>
+						</div>
+					</div>
+				</ul>
+			</nav>
+		</div>
+    
+        <Header id = "header">
+            <div id = "logo_txt"><a href="Main.html">Irfanullah<span> Nazand</span></a></div>
+            <nav id="navbar">
+				<ul>
+					<li><a href="Main.html">Hjem</a></li>
+					<li><a href="#main1">Om Meg</a></li>
+					<li><a href="#main2">Ferdigheter</a></li>
+					<li><a href="#main3">Prosjektportefølje</a></li>
+    				<li id=""><a href="Main_eng.html"><img src="Bilder/english.png" width="24px" height="18px" alt="eng" /></a></li>
+				</ul>
+			</nav>
+            
+            <div class = "dropdown">
+                <button class = "dropbtn" onclick="toggleMeny()"><img src="Bilder/menu.png" width ="70px" height= "26px" alt = "menu" /></button>
+                	<div id="menu-display">
+  					<div class="drop_content">
+    					<a href="index.html">Hjem</a>
+    					<a onclick="closeMenu()" href="#main1">Om Meg</a>
+    					<a onclick="closeMenu()" href="#main2">Ferdigheter</a>
+    					<a onclick="closeMenu()" href="#main3">Prosjektportefølje</a>
+    					<a href="index_eng.html"><img src="images/english.png" width="24px" height="18px" alt="eng" /></a>
+  					</div>
+  				</div>
+            </div>
+        </Header>
+    
+    
+    <!-- Front Page -->
+        <div id ="front_page">
+            <div class ="MyPic"><img src = "Bilder/Irfan(rund).png" width = "300px" height = "340px" alt="profile picture" id="MyPic"/> </div>
+            <div id ="heading">
+                <p><em> programvareutvikler og datavitenskaps student ved høgskolen i Oslo og Akershus.</em></p>
+            </div>
+            
+            <div class = "scroll">
+            <a href="#main1"><img src="Bilder/go_down.png" width="70px" height = "70px" alt= "go_down" /></a>
+            </div>
+        </div>
+    
+    
+    
+    <!-- Main -->
+        <div id="main1">
+            <div class="content"> 
+            
+                <h1> OM MEG</h1>
+                <p id="p1">Mitt navn er Irfanullah Nazand, og jeg liker å møte nye mennesker og finne måter å hjelpe dem ha en oppløftende opplevelse. Jeg har hatt en rekke kundeservice muligheter, der jeg var i stand til å ha færre returnerte produkter og økt gjenta kunder, sammenlignet med kollegaer. Jeg er engasjert, utadvendt , og en lagspiller .</p>
+                
+                <p id="p2">Jeg er en spirende programutvikler og datavitenskapsstudent ved Høgskolen i Oslo og Akershus.
+                
+                Profesjonelt har jeg jobbet med kunder, salg og service.
+                </p>
+            </div>
+        </div>
+    
+    
+    <div id="main2">
+			<div class="content">
+				<h1>Mine Ferdigheter</h1>
+                
+				<p>
+                    Jeg er svært interesert i koding og webdesign. Som hobby liker jeg å jobbe både med design og koding av nettsider, et eksempel på det er den nettsiden her. Jeg synes jeg har ganske god kunnskap og erfaring med Html og css og trives veldig.
+                </p>
+
+                <h4>
+                    Som dataingeniør-student ved Hioa har jeg også jobbet med følgende fag:
+                </h4>
+				<ul>
+                    <li>Java</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>MySql</li>
+                </ul>
+                
+                <p>
+                    Jeg liker å engasjere meg i ting som vi ikke får lært på skolen. Alt fra app-utvikling, web-design osv. Nå i det siste har jeg begynt å jobbe med å lære meg selv hvordan en lager apper for android operativsystem. 
+                </p>
+
+				<div id="container">
+					<div id="app1">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/java-logo.png" alt="app1">
+					</a>
+						<div class="app_txt"></div>
+					
+					</div>
+					<div id="app1">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/HTML5_Logo_512.png" alt="app2">
+					</a>
+						<div class="app_txt"></div>
+				
+					</div>
+                    <div id="app1">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/CSS3_logo.png" alt="app3">
+					</a>
+						<div class="app_txt"></div>
+				
+					</div>
+                    
+                    <div id="app1">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/android.png" alt="app4">
+					</a>
+						<div class="app_txt"></div>
+				
+					</div>
+                    
+                     <div id="app2">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/logo-mysql-170x115.png" alt="app5">
+					</a>
+						<div class="app_txt"></div>
+				
+					</div>
+					<div id="app3">
+					<a href="#" class="tab-navImg">
+						<img src="Bilder/gitlogo.png" alt="app6">
+					</a>
+						<div class="app_txt"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    
+     <div id="main3">
+            <div class="content"> 
+            
+                <h1> Prosjektportefølje</h1>
+                <p id="p1"> Blblablalbb, Her skal det stå om prosjekter jeg har jobbet med.</p>
+                
+                <p id="p2">
+                </p>
+            </div>
+        </div>
+
+    	<div id="footer">
+			<table id="social">
+				<tr>
+		        	<th colspan="4"><h2>Følg oss</h2></th>
+              	</tr>
+              	<tr>
+                	<td>
+                		<a href="mailto:irfan.nazand@live.com?Subject=Hello%20again" target="_top"><img src="Bilder/email.png" alt="email"></a>
+                	</td>
+                	<td>
+                		<a href="https://www.google.no/maps/place/Jens+Bjelkes+gate+42,+0578+Oslo/data=!4m2!3m1!1s0x46416e5eb67d0e6b:0xd54775c27dc65aa5?sa=X&ved=0ahUKEwjMx5Xpr8vVAhVIIlAKHZbiDPUQ8gEIJjAA"><img src="Bilder/place.png" alt="place"></a>
+                	</td>
+                	<td>
+		            	<a href="https://www.instagram.com/ir_faen/"><img src="Bilder/instagram.png" alt="instagram"/></a>
+		            </td>
+                	<td>
+			            <a href="https://www.facebook.com/irfan.nazand"><img src="Bilder/facebook.png" alt="facebook"/></a>
+			        </td>
+              	</tr>
+              	<tr>
+		        	<th colspan="4"><hr></th>
+              	</tr>
+			</table>			
+			
+			<p>2017 © Irfanullah Nazand. Alle rettigheter er forbeholdt.</p>
+		</div>
+    
+    
+    
+</body>
+
+</html>
